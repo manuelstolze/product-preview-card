@@ -7,4 +7,6 @@
     --dark-blue: hsl(212, 21%, 14%);
     --dark-grey-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
+
+    --attribution: var(--dark-cyan);
 }
