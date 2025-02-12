@@ -9,7 +9,7 @@ body{
         height: 100vh;
     }
 
-    .attribution { font-size: 11px; text-align: center; padding: 1rem ;width: 100%; }
+    .attribution { font-size: 11px; text-align: center; padding-bottom: 1rem; width: 100%; position: absolute; bottom: 0;}
     .attribution a { color: var(--attribution); }
 }
 
@@ -19,7 +19,24 @@ body{
 
 @media (min-width: 577px) {
     .card {
-        width: 344px;
-        padding: 42px 38px;
+        width: 570px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .product-image {
+            border-radius: 12px 0 0 12px;
+        }
+
+        .product-info {
+            padding: 32px;
+
+            .product-name{
+                margin: 16px 0 24px 0;
+            }
+        }
+
+        .add-to-cart {
+            margin-top: 24px;
+        }
     }
 }
